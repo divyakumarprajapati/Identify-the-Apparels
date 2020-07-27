@@ -38,3 +38,5 @@ Test file: CSV containing the customer information for whom loan eligibility is 
 |Credit_History	|credit history meets guidelines|
 |Property_Area |Urban/ Semi Urban/ Rural|
 
+## Run the Code
+Loan Prediction.ipynb
