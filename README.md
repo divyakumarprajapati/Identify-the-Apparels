@@ -1,8 +1,10 @@
 # Identify-the-Apparels
 In these project we will automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others. To automate this process, they have provided a dataset to identify the customers segments that are eligible for loan amount so that they can specifically target these customers.
-Data Dictionary
-Train file: CSV containing the customers for whom loan eligibility is known as 'Loan_Status'
 
+Data Dictionary
+
+Train file: CSV containing the customers for whom loan eligibility is known as 'Loan_Status'
+```
 Variable	Description
 Loan_ID	Unique Loan ID
 Gender	Male/ Female
@@ -17,10 +19,10 @@ Loan_Amount_Term	Term of loan in months
 Credit_History	credit history meets guidelines
 Property_Area	Urban/ Semi Urban/ Rural
 Loan_Status	(Target) Loan approved (Y/N)
-
+```
 
 Test file: CSV containing the customer information for whom loan eligibility is to be predicted
-
+```
 Variable	Description
 Loan_ID	Unique Loan ID
 Gender	Male/ Female
@@ -34,3 +36,4 @@ LoanAmount	Loan amount in thousands
 Loan_Amount_Term	Term of loan in months
 Credit_History	credit history meets guidelines
 Property_Area	Urban/ Semi Urban/ Rural
+```
